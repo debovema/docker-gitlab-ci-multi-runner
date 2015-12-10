@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20151117
-MAINTAINER sameer@damagehead.com
+FROM maven:3.3.3-jdk-8
+MAINTAINER mad@teecu.be
 
 ENV GITLAB_CI_MULTI_RUNNER_USER=gitlab_ci_multi_runner \
     GITLAB_CI_MULTI_RUNNER_HOME_DIR="/home/gitlab_ci_multi_runner"
