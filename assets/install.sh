@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+apt-get update
+apt-get install sudo
+
 # add git user
 adduser --disabled-login --gecos 'GitLab CI Runner' ${GITLAB_CI_MULTI_RUNNER_USER}
 
